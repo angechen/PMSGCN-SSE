@@ -14,7 +14,8 @@ Argument adjustment in opt1.py:
 	--use_projected_2dgt：default value is False. If it is True, then PMSGCN uses the 2D poses projected from the 3D labels as the network input.
 
 Dataset setup:
-2D pose detections and corresponding 3D labels are put in data/dataset
+2D pose detections and corresponding 3D labels are put in data/dataset which can be downloaded from:
+https://drive.google.com/drive/folders/1r8cz9abdru6YRZVOGWjQ1vwsW10D3v62?usp=sharing
 
 To train the PMSGCN, run:
 python main_graph.py  --show_protocol2
